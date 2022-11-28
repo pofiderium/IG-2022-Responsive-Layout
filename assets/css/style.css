@@ -9,7 +9,18 @@ html, body {
 /* Variables */
 
 :root {
+
+    /* UI - Make UI Consistent */
+    --border-color: rgb(219, 219, 219);
+
+    /* Body */
     --background-color: rgb(250, 250, 250);
+
+    /* Sidebar Canvas */
+    --sidebar-background: rgb(255, 255, 255);
+
+    /* Main canvas */
+
 }
 
 /* End of Variables */
@@ -17,7 +28,33 @@ html, body {
 /* Body */
 
 body {
+    display: flex;
+    width: 100%;
+    height: 100%;
     background-color: var(--background-color);
 }
 
 /* End of Body */
+
+/* Canvas */
+
+.canvas {
+    display: flex;
+    width: 100%;
+}
+
+    /* Canvas -> Sidebar Canvas */
+
+    .sidebar-canvas {
+
+        width: 17.45%;
+        background-color: var(--sidebar-background);
+        border-right: 1px solid var(--border-color);
+    }
+
+    /* Canvas -> Main Canvas */
+
+    .main-canvas {
+
+        width: 82.55%;
+    }
