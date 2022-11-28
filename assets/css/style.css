@@ -1,3 +1,11 @@
+/*
+    ----------------------------------------
+    Author: Mase.sk
+    Date: 28.11.2022
+    Project name: IG 2022 Responsive Layout
+    ----------------------------------------
+*/
+
 /* Default HTML things */
 
 html, body {
@@ -52,26 +60,39 @@ body {
         border-right: 1px solid var(--border-color);
     }
 
-    .sidebar-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 10%;
-    }
+        /* Canvas -> Sidebar Canvas -> Logo */
 
-    .sidebar-logo a {
-        width: 100%;
-        height: 100%;
-    }
+        .sidebar-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 10%;
+        }
 
-    .logo-holder {
-        display: block;
-        height: 100%;
-        width: 100%;
-        background-image: url('../img/logo-universal.png');
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+        .sidebar-logo a {
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo img {
+            width: 100%;
+        }
+
+        /* Canvas -> Sidebar Canvas -> Sidebar Menu */
+
+        .sidebar-menu {
+
+            
+        }
 
     /* Canvas -> Main Canvas */
 
